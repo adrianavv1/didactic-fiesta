@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <title>Weather Dashboard</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row head">
+            <div class="col-md-12">Weather Dashboard</div>
+        </div>
+        <div class="row body">
+            <div class="col-md-2 sidebar">
+                <div class="row city">
+                    <div class="col-md-12 citySearch">
+                    Search for City
+                    </div>
+                </div>
+                <div class="row inputCity">
+                    <div class="col-md-12 input">
+                        <form class="example" action="">
+                            <input type="text" placeholder="City name..." name="search" class="inputTown">
+                            <button type="submit" id="searchButton"><i class="fa fa-search"></i></button>
+                          </form>
+                    </div>
+                </div>
+                <div id="citys"></div>
+            </div>
+            <div class="col-md-10 weather">
+                <div class="container headCard">
+                    <div class="row">
+
+                        <div class="col-md-12 cityName">
+
+                        </div>
+                    </div>
+                    <div class="row">
+
+                        <div class="col-md-12 temp">
+
+                        </div>
+                    </div>
+                    <div class="row">
+                        
+                        <div class="col-md-12 humid">
+
+                        </div>
+                    </div>
+                    <div class="row">
+
+                        <div class="col-md-12 wind">
+
+                        </div>
+                    </div>
+                    <div class="row">
+
+                        <div class="col-md-12 uv">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="container fiveDay">
+                    <div class="row">Five Day Forcast:</div>
+                    <div class="row forcast">
+                        <div class="col dayOne">
+                            <div class="row">
+                                <div class="col-md-12 date dateOne"></div>
+                            </div>
+                            <div class="row picture">
+                                <div class="col-md-12 pic picOne"></div>
+                            </div>
+                            <div class="row temperature">
+                                <div class="col-md-12 temper temperOne"></div>
+                            </div>
+                            <div class="row humidity">
+                                <div class="col-md-12 humidity humidityOne"></div>
+                            </div>
+                        </div>
+                        <div class="col dayTwo">
+                            <div class="row date">
+                                <div class="col-md-12 date dateTwo"> </div>
+                            </div>
+                            <div class="row picture">
+                                <div class="col-md-12 pic picTwo"></div>
+                            </div>
+                            <div class="row temperature">
+                                <div class="col-md-12 temper temperTwo"> </div>
+                            </div>
+                            <div class="row humidity">
+                                <div class="col-md-12 humidity humidityTwo"> </div>
+                            </div>
+                        </div>
+                        <div class="col dayThree">
+                            <div class="row date">
+                                <div class="col-md-12 date dateThree"></div>
+                            </div>
+                            <div class="row pic picture">
+                                <div class="col-md-12 pic picThree"></div>
+                            </div>
+                            <div class="row temper temper">
+                                <div class="col-md-12 temper temperThree"></div>
+                            </div>
+                            <div class="row humidity humidity">
+                                <div class="col-md-12 humidity humidityThree"></div>
+                            </div>
+                        </div>
+                        <div class="col dayFour">
+                            <div class="row date">
+                                <div class="col-md-12 date dateFour"></div>
+                            </div>
+                            <div class="row picture">
+                                <div class="col-md-12 pic picFour"></div>
+                            </div>
+                            <div class="row temperature">
+                                <div class="col-md-12 temper temperFour"></div>
+                            </div>
+                            <div class="row humidity">
+                                <div class="col-md-12 humidity humidityFour"></div>
+                            </div>
+                        </div>
+                        <div class="col dayFive">
+                            <div class="row date">
+                                <div class="col-md-12 date dateFive"></div>
+                            </div>
+                            <div class="row picture">
+                                <div class="col-md-12 pic picFive"></div>
+                            </div>
+                            <div class="row temper">
+                                <div class="col-md-12 temper temperFive"></div>
+                            </div>
+                            <div class="row humidity">
+                                <div class="col-md-12 humidity humidityFive"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/css/script.js"></script>
+</body>
+</html>

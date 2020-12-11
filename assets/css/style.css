@@ -1,0 +1,69 @@
+.head{
+    background-color: #38414e;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.search{
+    background-color: white;
+    margin: 0;
+    text-align: left;
+}
+
+.sidebar{
+    background-color: #eceff1;
+    padding: 3px;
+}
+.weather{
+    background-color: white;
+}
+.headCard{
+    border-top: 2px solid lightgray;
+    border-bottom: 2px solid lightgray;
+    border-left: 2px solid lightgray;
+    height: 200px;
+    margin: 5px;
+}
+.cityName{
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: larger;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.temp{
+    margin-bottom: 2px;
+    margin-left: 10px;
+}
+.humid{
+    margin-bottom: 2px;
+    margin-left: 10px;
+}
+.wind{
+    margin-bottom: 2px;
+    margin-left: 10px;
+}
+.uv{
+    margin-left: 10px;
+}
+.date,.temper,.humidity,.pic{
+    text-align: center;
+}
+.dayOne,.dayTwo,.dayThree,.dayFour,.dayFive{
+    background-color: #0066ff;
+    margin: 5px;
+    text-align: right;
+    height: 130px;
+}
+.search{
+    width: 180px;
+    background-color: white;
+    color: black;
+}
+.red{
+    background-color: rgb(189, 42, 86);
+    color: white;
+}
